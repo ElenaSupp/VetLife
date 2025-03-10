@@ -1,0 +1,980 @@
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Устанавливаем минимальный размер экрана и добавляем фоновое изображение */
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  font-family: "Montserrat", sans-serif;
+  /* Плавная прокрутка */
+}
+
+/* Стилизуем контейнер */
+.container {
+  min-width: 100vh;
+  padding: 0 auto;
+  /* Увеличиваем боковые отступы */
+  margin: 0 auto;
+  /* Центрируем контейнер по горизонтали */
+}
+
+/* Стилизуем шапку сайта */
+.header {
+  padding-top: 25px;
+
+
+}
+
+/* Стилизуем внутренний контейнер шапки */
+.header__inner {
+  display: flex;
+  /* Выстраиваем элементы внутри контейнера в строку */
+  justify-content: space-evenly;
+  /* Распределяем элементы по ширине контейнера */
+  align-items: center;
+  /* Выравниваем элементы по вертикали */
+
+
+}
+
+.logo {
+
+  font-size: 25px;
+  font-weight: 600;
+  color: #000000;
+  padding: -20px;
+}
+
+/* Стилизуем списки меню */
+.menu__list {
+  display: flex;
+  /* Отображаем элементы списка в строку */
+  list-style: none;
+  /* Убираем стандартные маркеры (чёрные точки) */
+  align-items: center;
+  justify-content: center;
+  background: #a49fff;
+  border-radius: 30px;
+  width: 850px;
+  height: 67px;
+
+
+}
+
+.menu1 {
+  display: flex;
+  /* Отображаем элементы списка в строку */
+  list-style: none;
+  /* Убираем стандартные маркеры (чёрные точки) */
+  align-items: center;
+  justify-content: center;
+  background: #a49fff;
+  border-radius: 30px;
+  width: 210px;
+  height: 67px;
+  padding: 0;
+}
+
+/* Стилизуем пункты меню */
+.menu__list-item {
+  margin-right: 20px;
+  /* Добавляем отступ между пунктами меню */
+}
+
+/* Стилизуем ссылки в меню */
+.menu__list-link {
+  padding: 10px 20px;
+  /* Увеличиваем вертикальный и горизонтальный отступы */
+  font-size: 18px;
+  /* Уменьшаем размер шрифта */
+  color: #000000;
+  /* Устанавливаем цвет ссылок */
+  cursor: pointer;
+  /* Задаём изменение вида курсора при наведении на пункты меню */
+  transition: all 0.3s;
+  /* Добавляем плавное изменение стилей при наведении */
+
+}
+
+.menu__list-link:hover {
+  color: #ffffff;
+}
+
+.cont {
+  min-width: 100vh;
+  padding: 0 15px;
+  /* Увеличиваем боковые отступы */
+  margin: 0 auto;
+  /* Центрируем контейнер по горизонтали */
+}
+
+.welcome {
+  background-image: url(./image/image\ 9.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  margin: -50px 0;
+
+
+}
+
+
+.service-details {
+  margin-left: 20px;
+  border-radius: 5px;
+  padding: 0 100px;
+  font-size: 30px;
+  font-weight: 600;
+  list-style: none;
+  display: none;
+  line-height: 2;
+
+}
+
+l {
+  color: #817CDA;
+  font-weight: 600;
+
+}
+
+.zapis {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
+  list-style: none;
+  background: #a49fff;
+  border-radius: 20px;
+  width: 500px;
+  height: 70px;
+  font-weight: 500;
+}
+
+.zapiss:hover {
+  cursor: pointer;
+  transition: all 0.3s;
+  color: black;
+}
+
+.zapiss {
+  color: #ffffff;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  font-weight: 500;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 0px 200px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+
+h4 {
+  padding: 0 100px;
+  font-size: 40px;
+  font-weight: 600;
+
+}
+
+button-qver {
+  background: #a49fff;
+  border-radius: 50%;
+  color: white;
+  border: #a49fff;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 50px;
+
+}
+
+.promotions {
+  min-width: 100vh;
+  padding: 0 auto;
+  /* Увеличиваем боковые отступы */
+  margin: 0 auto;
+  /* Центрируем контейнер по горизонтали */
+}
+
+.promotion-cards {
+  display: flex;
+  justify-content: space-between;
+  /* Распределяем карточки по всей ширине */
+  flex-wrap: wrap;
+  /* Позволяем карточкам переноситься на следующую строку при необходимости */
+  margin: -5px;
+  /* Убираем отступы между карточками */
+  min-width: 100vh;
+  padding: 0 auto;
+  /* Увеличиваем боковые отступы */
+  margin: 0 auto;
+  /* Центрируем контейнер по горизонтали */
+}
+
+.promotion-card {
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 5px;
+  /* Отступы между карточками */
+  flex: 1 1 30%;
+  /* Позволяем карточкам занимать равное пространство с минимальной шириной 30% */
+  height: 200px;
+  /* Устанавливаем фиксированную высоту карточек */
+  color: white;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.promotion-card:hover {
+  transform: scale(1.05);
+  /* Увеличение карточки при наведении */
+}
+
+.promotion-text {
+  position: absolute;
+  /* Позволяет тексту занимать всю карточку */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  /* Полупрозрачный фон */
+  opacity: 1;
+  /* Начальная прозрачность */
+  transition: opacity 0.3s;
+  /* Плавный переход для прозрачности */
+}
+
+.conditions {
+  display: none;
+  /* Скрываем условия по умолчанию */
+}
+
+.promotion-card:hover .title {
+  display: none;
+  /* Скрываем заголовок при наведении */
+}
+
+.promotion-card:hover .conditions {
+  display: block;
+  /* Показываем условия при наведении */
+  color: white;
+  /* Цвет текста условий */
+  margin-top: 10px;
+  /* Отступ сверху для условий */
+}
+
+.form-container {
+  display: flex;
+  /* Используем Flexbox для выравнивания */
+}
+
+.image-container {
+  flex: 1;
+  /* Занимает 1 часть пространства */
+  display: flex;
+  justify-content: center;
+  /* Центрируем изображение */
+  align-items: center;
+  /* Вертикально центрируем изображение */
+}
+
+.form-section {
+  flex: 2;
+  /* Занимает 2 части пространства */
+  padding-left: 20px;
+  /* Отступ слева от формы */
+}
+
+label {
+  margin-top: 10px;
+  display: block;
+  color: #a49fff;
+  font-size: large;
+}
+
+input,
+select {
+  width: 50%;
+  /* Устанавливаем фиксированную ширину полей */
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  /* Убираем рамку */
+  border-radius: 15px;
+  /* Закругленные углы */
+  background-color: #f0f0f0;
+  /* Цвет фона для полей ввода */
+}
+
+
+.confirmation-message {
+  margin-top: 20px;
+  text-align: center;
+  color: green;
+}
+
+.promotion-card:hover .promotion-text {
+  opacity: 1;
+}
+
+.specialist-card {
+  text-align: center;
+  background: #e7f3fe;
+  border: 1px solid #b3d4fc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  flex: 1;
+  max-width: 250px;
+}
+
+.specialist-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.specialist-card h3 {
+  margin: 10px 0 5px;
+}
+
+.specialist-card p {
+  margin: 0;
+  color: #555;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+button:hover {
+  cursor: pointer;
+  transition: all 0.3s;
+  color: black;
+}
+
+.modal {
+  display: none;
+  /* Скрыто по умолчанию */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  /* Начальная непрозрачность */
+  transition: opacity 0.5s ease;
+  /* Переход для эффекта плавного появления */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 400px;
+  border-radius: 30px;
+}
+
+.close-button {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.chat-container {
+  max-width: 400px;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  background: white;
+  padding: 10px;
+}
+
+.chat-box {
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+
+.chat-message {
+  margin: 15px 0;
+  border-radius: 30px;
+  margin-left: 15px;
+}
+
+.user {
+  color: rgb(133, 76, 199);
+  font-size: 20px;
+  font-weight: 35px;
+
+}
+
+.vet {
+  color: #817CDA;
+  font-size: 20px;
+  font-weight: 40px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  /* Сдвигает содержимое вправо */
+
+}
+
+button-mol {
+  background: #817CDA;
+  border-radius: 50%;
+  color: white;
+  border: #a49fff;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#user-input {
+  flex: 1;
+  /* Позволяет полю ввода занимать оставшееся пространство */
+  margin-right: 10px;
+  /* Отступ справа для отделения от кнопки */
+  padding: 10px;
+  /* Отступ внутри поля ввода для лучшего восприятия */
+  border: 1px solid #ccc;
+  /* Цвет рамки */
+  border-radius: 20px;
+  /* Скругление углов */
+  width: 95%;
+  /* Устанавливаем ширину 100% в родительском контейнере */
+  min-width: 200px;
+  /* Минимальная ширина поля ввода */
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#registration-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#registration-form label {
+  margin: 10px 0 5px;
+}
+
+#registration-form input {
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: calc(100% - 16px);
+  max-width: 280px;
+
+}
+
+#registration-form button {
+  padding: 10px;
+  background-color: #a49fff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#registration-form button:hover {
+  background-color: #817CDA;
+}
+
+.modal1 {
+  display: none;
+  /* Скрыто по умолчанию */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.modal1-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.specialists {
+  margin-bottom: 20px;
+}
+
+.specialist-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.specialist-card {
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 5px;
+  flex: 1;
+  max-width: 250px;
+  height: 150px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+
+.specialist-card {
+  text-align: center;
+  background: #e7f3fe;
+  border: 1px solid #b3d4fc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  flex: 1;
+  max-width: 250px;
+}
+
+.specialist-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.specialist-card h3 {
+  margin: 10px 0 5px;
+}
+
+.specialist-card p {
+  margin: 0;
+  color: #555;
+}
+
+.reviews {
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.reviews h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.review-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fafafa;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.review-form input,
+.review-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+
+.review-form button {
+  background-color: #a49fff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.review-form button:hover {
+  background-color: #817CDA;
+}
+
+.review-list {
+  display: flex;
+  /* Используем Flexbox для расположения в строку */
+  flex-wrap: wrap;
+  /* Позволяем элементам переноситься на следующую строку */
+  margin-top: 20px;
+  justify-content: center;
+  /* Центрируем отзывы */
+}
+
+.review-item {
+  background: #a49fff;
+  border: 2px solid #a49fff;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  /* Отступ между отзывами */
+  flex: 0 1 300px;
+  /* Устанавливаем ширину отзывов */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.review-item:nth-child(odd) {
+  background: #a49fff;
+  border: 2px solid #a49fff;
+}
+
+.review-item:nth-child(even) {
+  background: #a49fff9c;
+  border: 2px solid #a49fff9c;
+}
+
+.review-item:hover {
+  transform: scale(1.02);
+  /* Увеличение при наведении для эффекта */
+}
+
+.review-item h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.appointment-container {
+  display: flex;
+  justify-content: space-between;
+  /* Пространство между элементами */
+  align-items: flex-start;
+  /* Выравнивание по верхнему краю */
+  flex-wrap: wrap;
+  /* Позволяем переносить элементы на следующую строку */
+  padding: 50px;
+  background: #fff;
+  /* Цвет фона контейнера */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.appointment {
+  flex: 0 1 45%;
+  /* Занимает 45% ширины */
+  background: #a49fff;
+  /* Цвет фона записи */
+  padding: 15px;
+  /* Уменьшен отступ внутри формы */
+  border-radius: 25px;
+  /* Закругленные края формы */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  min-width: 300px;
+  /* Минимальная ширина формы */
+  display: flex;
+  flex-direction: column;
+  /* Расположить поля вертикально */
+  align-items: center;
+  /* Центрирование по горизонтали */
+}
+
+
+.appointment h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  /* Уменьшен отступ снизу заголовка */
+}
+
+.appointment input,
+.appointment select,
+.appointment textarea {
+  width: 350px;
+  /* Установлена фиксированная ширина полей ввода */
+  padding: 15px;
+  /* Уменьшен внутренний отступ */
+  margin: 8px 0;
+  /* Уменьшен отступ между полями */
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 15px;
+  /* Уменьшен размер шрифта */
+}
+
+.appointment button {
+  background-color: #817be4;
+  color: white;
+  border: none;
+  padding: 8px;
+  /* Уменьшен внутренний отступ для кнопки */
+  border-radius: 25px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  /* Размер шрифта кнопки */
+}
+
+.appointment button:hover {
+  background-color: #605ac1;
+  /* Темная кнопка при наведении */
+}
+
+.map {
+  flex: 0 1 50%;
+  /* Занимает 50% ширины */
+  margin-left: 20px;
+  /* Отступ между формой и картой */
+  min-width: 300px;
+  /* Минимальная ширина карты */
+  height: 490px;
+  /* Высота карты */
+  border-radius: 25px;
+  /* Закругленные края карты */
+  overflow: hidden;
+  /* Скрытие переполнение */
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  /* Убираем рамку у iframe */
+}
+
+.specialists-container {
+  display: flex;
+  /* Используется Flexbox для расположения карточек */
+  flex-wrap: wrap;
+  /* Позволяет карточкам переноситься на следующую строку, если не хватает места */
+  justify-content: center;
+  /* Центрирование карточек */
+  gap: 20px;
+  /* Отступ между карточками */
+}
+
+.specialist-card {
+  background: #a49fff;
+  border-radius: 25px;
+  /* Закругленные края карточек */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  /* Увеличена ширина карточки */
+  height: 350px;
+  /* Увеличена фиксированная высота карточки */
+  position: relative;
+  /* Позиционирование для дочерних элементов */
+  overflow: hidden;
+  /* Скрытие переполнения */
+  text-align: center;
+  /* Выравнивание текста по центру */
+}
+
+.specialist-card img {
+  width: 100%;
+  /* Ширина изображения 100% от родительской карточки */
+  height: 100%;
+  /* Высота изображения 60% от высоты карточки */
+  object-fit: cover;
+  /* Сохранение пропорций изображения внутри карточки */
+  transition: transform 0.3s ease;
+  /* Плавный переход для увеличения изображения */
+  border-radius: 25px;
+}
+
+.specialist-card:hover img {
+  transform: scale(1.1);
+  /* Увеличение изображения при наведении */
+}
+
+.specialist-info {
+  position: absolute;
+  /* Абсолютное позиционирование текста */
+  top: 50%;
+  /* Центрирование по вертикали */
+  left: 50%;
+  /* Центрирование по горизонтали */
+  transform: translate(-50%, -50%);
+  /* Центрирование текста */
+  color: white;
+  /* Цвет текста */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  /* Тень текста для читаемости */
+}
+
+.specialist-card h3 {
+  margin: 10px 0;
+  /* Отступы вокруг имени */
+  font-size: 1.2em;
+  /* Размер шрифта имени */
+}
+
+.specialist-card p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 25px;
+  background-color: #6f6e796d;
+  border-radius: 25px;
+  width: 160px;
+}
+
+c1 {
+  background-color: #a49fff;
+  border-radius: 25px;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+.confirmation-message {
+  margin-top: 15px;
+  color: rgb(255, 255, 255);
+  display: none;
+  font-size: large;
+}
+
+.confirmation-messages {
+  flex: content;
+  margin-top: 15px;
+  color: #a49fff;
+  display: none;
+  font-size: 27px;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.confirmation-messag {
+  flex: content;
+  margin-top: 15px;
+  color: #a49fff;
+  display: none;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.profile {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.slider {
+  position: relative;
+  height: 500px;
+  margin:0 50px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 1420px;
+  border-radius: 30px;
+}
+
+.slider-slides {
+  position: relative;
+  height: 100%;
+  transition: transform 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+  will-change: transform;
+
+}
+
+.slider-slide {
+  float: left;
+  height: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+
+}
+
+.slider-dots {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: calc(100% - 40px);
+}
+
+.slider-dot,
+.slider-indicator {
+  display: block;
+  margin: 0 5px;
+  height: 14px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.slider-indicator {
+  position: absolute;
+  background: #a49fff;
+  width: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
+}
+
+.slider-indicator-left {
+  transition: left 0.3s cubic-bezier(0.51, 0.92, 0.24, 1.15), right 0.3s 0.1s cubic-bezier(0.51, 0.92, 0.24, 1.15);
+}
+
+.slider-indicator-right {
+  transition: left 0.3s 0.1s cubic-bezier(0.51, 0.92, 0.24, 1.15), right 0.3s cubic-bezier(0.51, 0.92, 0.24, 1.15);
+}
