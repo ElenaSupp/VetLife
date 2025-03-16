@@ -858,22 +858,20 @@ h1 {
 
 .about-container {
   width: 1550px;
-  height: 3490px;
   margin: 20px auto;
+  height: 3500px;
   border-radius: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-size: cover;
   background-position: center;
   width: 100%;
-
-
 }
 
 .text-container {
   max-width: 750px;
   margin-left: auto;
   text-align: left;
-  padding: 40px;
+  padding: 60px;
 }
 
 h8 {
@@ -884,36 +882,35 @@ h8 {
 }
 
 .text2-container {
-  max-width: 600px;
+  max-width: 700px;
   margin-right: auto;
   text-align: left;
-  padding: 30px 0;
+  margin-top: 30px;
 }
 
 .text3-container {
   max-width: 400px;
   margin-right: auto;
   text-align: left;
-  padding: 320px 0;
-  margin: 10px;
+  padding: 330px 0;
+  margin: 20px;
 }
 
 .text4 {
-  max-width: 400px;
-  margin-right: auto;
-  text-align: left;
-  margin: -90px 380px;
+  max-width: 400px; 
+  margin-right: auto; 
+  text-align: left; 
+  margin: -90px 380px; 
   position: relative;
 
 }
 
 .text3 {
-  max-width: 300px;
-  margin-left: 25%;
-  text-align: left;
-  margin-top: 21%;
-
-  position: absolute;
+max-width: 300px; 
+margin-left: 25%; 
+text-align: left; 
+margin-top: 20%; 
+ position: absolute;
 }
 
 h7 {
@@ -933,7 +930,7 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  padding-top: 10%;
+  padding-top: 7%;
 }
 
 h11 {
