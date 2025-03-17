@@ -874,7 +874,7 @@ h1 {
  height: auto;
  height: 3500px;
  background-repeat: no-repeat;
- background-position: 0 0;
+ background-position: center;
   
 }
 
@@ -954,7 +954,7 @@ h11 {
 .oborud-card {
   border-radius: 25px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 470px;
+  width: 30%;
   height: 650px;
   position: relative;
   overflow: hidden;
