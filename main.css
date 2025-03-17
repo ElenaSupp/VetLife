@@ -864,8 +864,7 @@ h1 {
 .about-container {
  background-repeat: no-repeat;
  background-position: center;
-height: auto;
-min-height: 100vh;
+
 
 }
 
