@@ -871,7 +871,9 @@ h1 {
 
 
   width: 100%;
+ height: auto;
  height: 3500px;
+ background-repeat: no-repeat;
   
 }
 
