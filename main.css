@@ -638,7 +638,8 @@ footer {
   padding: 15px;
   border-radius: 25px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  min-width: 300px;
+ width: 50%;
+ height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -679,19 +680,12 @@ footer {
 .map {
   flex: 0 1 50%;
   margin-left: 20px;
-  min-width: 300px;
+  width: 50%;
   height: 490px;
   border-radius: 25px;
   overflow: hidden;
 }
-.map-container{
 
-  height: 500px;
-  margin: auto;
-  max-width: 95%;
-  margin-bottom: 60px;
- 
-}
 
 iframe {
   width: 100%;
@@ -872,7 +866,7 @@ h1 {
  background-size: cover;
  background-position: center;
 width: 100%;
-max-height: 350%;
+max-height: 3500px;
 
 }
 
