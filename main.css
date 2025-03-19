@@ -434,62 +434,6 @@ footer {
   margin-top: 20px;
 }
 
-#registration-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#registration-form label {
-  margin: 10px 0 5px;
-}
-
-#registration-form input {
-  margin: 10px 0;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  width: calc(100% - 16px);
-  max-width: 280px;
-
-}
-
-#registration-form button {
-  padding: 10px;
-  background-color: #a49fff;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-}
-
-#registration-form button:hover {
-  background-color: #817CDA;
-}
-
-.modal1 {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4);
-
-}
-
-.modal1-content {
-  background-color: #fefefe;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 400px;
-  border-radius: 20px;
-}
-
 .specialists {
   margin-bottom: 20px;
 }
@@ -863,9 +807,7 @@ h1 {
 
 .about-container {
  background-repeat: no-repeat;
-background-size: cover;
- background-position: center;
-
+height: 3800px;
 
 }
 
@@ -873,7 +815,7 @@ background-size: cover;
   max-width: 750px;
   margin-left: auto;
   text-align: left;
-  padding: 60px;
+  padding: 150px;
 }
 
 h8 {
@@ -887,15 +829,15 @@ h8 {
   max-width: 700px;
   margin-right: auto;
   text-align: left;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .text3-container {
   max-width: 400px;
   margin-right: auto;
   text-align: left;
-  padding: 330px 0;
-  margin: 20px;
+  padding: 450px 1px;
+  margin: 10px;
 }
 
 .text4 {
@@ -932,7 +874,7 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  padding-top: 7%;
+  padding-top: 3%;
 }
 
 h11 {
@@ -968,7 +910,7 @@ h11 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 10%;
+  padding-top: 5%;
   margin: 0 25px;
 }
 
@@ -987,9 +929,9 @@ h11 {
 
 .column {
   flex: 1;
-  margin: 5px 35px;
-  padding: 30px 40px;
-  border-radius: 8px;
+  margin: 5px 55px;
+  padding: 35px 55px;
+
 }
 
 .column h2 {

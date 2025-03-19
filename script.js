@@ -1,17 +1,16 @@
 document.querySelectorAll('.toggle-button').forEach(button => {
   button.addEventListener('click', function () {
-    const serviceDetails = this.parentElement.nextElementSibling; // Находим следующий элемент (список услуг)
+    const serviceDetails = this.parentElement.nextElementSibling; 
     if (serviceDetails.style.display === 'none' || serviceDetails.style.display === '') {
-      serviceDetails.style.display = 'block'; // Показываем список услуг
-      this.textContent = '-'; // Изменяем текст на "-"
+      serviceDetails.style.display = 'block'; 
+      this.textContent = '-'; 
     } else {
-      serviceDetails.style.display = 'none'; // Скрываем список услуг
-      this.textContent = '+'; // Изменяем текст обратно на "+"
+      serviceDetails.style.display = 'none'; 
+      this.textContent = '+'; 
     }
   });
 });
 
-// Код для работы с чатом
 document.getElementById('open-chat').addEventListener('click', function (event) {
   event.preventDefault();
   const modal = document.getElementById('chat-modal');
@@ -47,10 +46,8 @@ function addMessage(message, sender) {
   messageElement.classList.add('chat-message', sender);
   messageElement.textContent = message;
   chatBox.appendChild(messageElement);
-  chatBox.scrollTop = chatBox.scrollHeight; // Прокручиваем вниз
+  chatBox.scrollTop = chatBox.scrollHeight; 
 }
-
-// Закрытие модального окна при клике вне его
 window.onclick = function (event) {
   const modal = document.getElementById('chat-modal');
   if (event.target === modal) {
@@ -60,41 +57,7 @@ window.onclick = function (event) {
     }, 500);
   }
 };
-// Открытие модального окна для регистрации
-const registrationModal = document.getElementById("registration-modal");
-const openRegistrationButton = document.getElementById("open-registration");
-const closeButton = document.querySelector(".close-button");
-const registrationForm = document.getElementById("registration-form");
-const confirmationMessag = document.getElementById("confirmation-messag");
 
-// Открываем модальное окно
-openRegistrationButton.addEventListener('click', function() {
-    registrationModal.style.display = "block";
-});
-
-// Закрываем модальное окно
-closeButton.addEventListener('click', function() {
-    registrationModal.style.display = "none";
-    confirmationMessag.style.display = "none"; // Скрываем сообщение при закрытии
-});
-
-// Закрытие модального окна при клике вне его
-window.addEventListener('click', function(event) {
-    if (event.target === registrationModal) {
-        registrationModal.style.display = "none";
-    }
-});
-
-// Обработка регистрации
-registrationForm.addEventListener('submit', function(event) {
-    event.preventDefault(); // Предотвращаем перезагрузку страницы
-
-    // Показываем сообщение об успешной регистрации
-    confirmationMessag.style.display = "block";
-
-    // Сбрасываем форму
-    registrationForm.reset();
-});
 
 
 
